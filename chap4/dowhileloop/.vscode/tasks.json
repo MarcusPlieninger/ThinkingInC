@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build first",
+        "type": "shell",
+        "command": "gcc",
+        "args": ["-g", "-o", "dowhileloop", "dowhileloop.c"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
