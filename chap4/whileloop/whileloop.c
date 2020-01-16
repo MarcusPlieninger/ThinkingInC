@@ -5,7 +5,7 @@
 int main () {
     int i = 1;
     int n;
-    printf("How many times should the while loop loop?");
+    printf("How many times should the do while loop loop?");
     scanf(" %d", &n);
     while (i <= n) {
         printf("%d ", i);
