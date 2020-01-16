@@ -1,9 +1,8 @@
-/* branch.c: Illustrates branching */
+/* branch2.c: Branching on arbitrary input */
 /* Finds first odd numer whose digits
    add to 7. Assumes 2 digits only.*/
 
 #include <stdio.h>
-#define SIZE 5
 
 int main() {
     int num;
