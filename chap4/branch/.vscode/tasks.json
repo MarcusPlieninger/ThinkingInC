@@ -5,7 +5,7 @@
         "label": "build first",
         "type": "shell",
         "command": "gcc",
-        "args": ["-g", "-o", "lab3", "lab3.c"],
+        "args": ["-g", "-o", "branch", "branch.c"],
         "group": {
           "kind": "build",
           "isDefault": true
