@@ -1,3 +1,5 @@
+https://code.visualstudio.com/docs/cpp/config-mingw
+
 https://www.mindviewllc.com/quicklinks/
 
 https://archive.org/details/ThinkingInC
