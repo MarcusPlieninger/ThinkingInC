@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build first",
+        "type": "shell",
+        "command": "gcc",
+        "args": ["-g", "-o", "fun3", "fun3.c"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
