@@ -1,4 +1,5 @@
-/* stack.c: implementation */
+/* stack.c: implementation 
+(Function implementatnion with private definitions) */
 #include "stack.h"
 
 /* Private data: */
@@ -15,4 +16,35 @@ void stk_push(int x) {
     }
     else
         error = 1;
+}
+
+int stk_pop(void) {
+    if (ptr > 0) {
+        int x = data [--ptr];
+        error = 0;
+        return x;
+    }
+    else {
+        error = 1;
+        return STK_ERROR;
+    }
+}
+
+int stk_size(void) {
+    return ptr;
+}
+
+int stk_top(void) {
+    if (ptr > 0) {
+        error = 0;
+        return data[ptr-1];
+    }
+    else {
+        error = 1;
+        return STK_ERROR;
+    }
+}
+
+int stk_error(void) {
+    return error;
 }
