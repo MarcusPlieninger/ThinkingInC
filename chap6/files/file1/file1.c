@@ -9,5 +9,5 @@ int get_j(void) {
 
 /* 
 cannot access j from another file,
-but can acces j
+but can acces i
 */
