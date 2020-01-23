@@ -1,4 +1,6 @@
-/* lab6.c */
+/* lab6.c 
+test program */
+
 #include "employee.h"
 #include <stdio.h>
 
